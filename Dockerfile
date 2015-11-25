@@ -12,7 +12,7 @@
 FROM alpine
 MAINTAINER Ross Timson <ross@rosstimson.com>
 
-ENV TERRAFORM_VERSION 0.6.6
+ENV TERRAFORM_VERSION 0.6.7
 
 # Download and install Terraform.
 RUN mkdir /tmp/terraform \
